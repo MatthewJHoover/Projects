@@ -1,0 +1,12 @@
+{"inventory":[
+	{"animalName":"Luna", "animalType":"Cat", "animalAge":5, "animalTrait":"Drowzy", "animalDescription":"I am a very lazy and sleepy cat throughout the day.", "animalFile":"cat1"},
+	{"animalName":"Tiger", "animalType":"Cat", "animalAge":5, "animalTrait":"Savage", "animalDescription":"I am a very ferocious cat and I like to scratch things up.", "animalFile":"cat2"},
+	{"animalName":"Stalk", "animalType":"Cat", "animalAge":6, "animalTrait":"Stalker", "animalDescription":"I am very silent when I stalk my prey and pounce on them.", "animalFile":"cat3"},
+	{"animalName":"Muffin", "animalType":"Cat", "animalAge":7, "animalTrait":"Loud", "animalDescription":"I like to meow in the middle of the night and wake everybody up.", "animalFile":"cat4"},
+	{"animalName":"Fuzz", "animalType":"Cat", "animalAge":2, "animalTrait":"Playful", "animalDescription":"I am the cutest and most playful cat you have ever seen.", "animalFile":"cat5"},
+    {"animalName":"Spot Jr.", "animalType":"Dog", "animalAge":3, "animalTrait":"Junior", "animalDescription":"I am proud of my dad and I want to be just like him when I grow up.", "animalFile":"dog1"},
+    {"animalName":"Daisy", "animalType":"Dog", "animalAge":5, "animalTrait":"Athletic", "animalDescription":"I am a wild dog filled with lots of energy and stamina.", "animalFile":"dog2"},
+    {"animalName":"Spot", "animalType":"Dog", "animalAge":8, "animalTrait":"Senior", "animalDescription":"I have a pup who I am very proud of.", "animalFile":"dog3"},
+	{"animalName":"Gust", "animalType":"Dog", "animalAge":6, "animalTrait":"Fast", "animalDescription":"I like to stick my head out of a car window.", "animalFile":"dog4"},
+	{"animalName":"Bark", "animalType":"Dog", "animalAge":7, "animalTrait":"Annoying", "animalDescription":"I like to bark at people when they come through the door.", "animalFile":"dog5"}
+]}

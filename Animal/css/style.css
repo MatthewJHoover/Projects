@@ -1,0 +1,46 @@
+/*Matthew Hoover*/
+body{
+	background-color: sandybrown;
+	font-family: 'Inconsolata', serif;
+	font-size: 150%;
+	font-weight: bold;
+}
+h1{
+	color: saddlebrown;
+}
+.listItem{
+	border: solid saddlebrown;
+}
+.styleme{
+	font-family: 'Droid Sans', serif;
+}
+.c01{
+	color: saddlebrown;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+#id01{
+	color: saddlebrown;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+.c02{
+	border: solid saddlebrown;
+	display: inline-block;
+}
+@media screen and (max-device-width: 480px) { /*Media Query for small devices*/
+.c01{
+	color: saddlebrown;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#id01{
+	color: saddlebrown;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}

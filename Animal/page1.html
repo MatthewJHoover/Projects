@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--Matthew Hoover-->
+<html>
+<head>
+<title>Cats & Dogs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata"> <!--Special Fonts-->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<script src="myapp.js"></script>
+</head>
+<body ng-app="littleApp" ng-controller="ListCtrl">
+<div class="content">
+<h1 class="c01">Cats & Dogs</h1><br>
+<!--Div that shows the information to be selected-->
+<div class="c01">
+<ol>
+  	<li ng-repeat="item in itemDetails | orderBy:selectedID" ng-click="select(item)">
+      {{item.animalName}}</li>
+  </ol>
+</div>
+<!--Div that shows selected information-->
+<div id="id01">
+Name: {{selected.animalName}}
+<br><img src="img/{{selected.animalFile}}.png" />
+<br>Type: {{selected.animalType}}
+<br>Age: {{selected.animalAge}}
+<br>Trait: {{selected.animalTrait}}
+<br>Description: {{selected.animalDescription}}
+</div>
+<br>
+<div class="c01">
+<a href="index.html" ><img class="pict" src="img/back.png" alt="back"/></a>
+</div>
+</div>
+</body>
+</html>
