@@ -1,0 +1,18 @@
+#header{
+	color:yellow;
+	background-color:blue;
+	border:solid yellow;
+	text-align:center;
+	margin:auto;
+}
+#mainSearch{
+	color:yellow;
+	font-weight:bold;
+	background-color:blue;
+	border:solid yellow;
+	text-align:center;
+	margin:auto;
+}
+body{
+	background-color:darkblue;
+}
